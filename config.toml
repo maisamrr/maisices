@@ -1,4 +1,4 @@
-baseURL = 'lorem'
+baseURL = 'https://maisamrr.github.io/maisices/'
 languageCode = 'en-us'
 title = 'maisices'
 theme = 'hugo-ficurinia'

@@ -1,3 +1,23 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'maisices'
+theme = 'hugo-ficurinia'
+
+author = 'maísa'
+
+[menu]
+    [[menu.icons]]
+        identifier = "github"
+        name = "github"
+        url = "https://github.com/maisamrr"
+        weight = 10
+    [[menu.icons]]
+        identifier = "instagram"
+        name = "instagram"
+        url = "https://instagram.com/maisamoreira"
+        weight = 10
+    [[menu.icons]]
+        identifier = "linkedin"
+        name = "linkedin"
+        url = "https://linkedin.com/maisammoreira"
+        weight = 10

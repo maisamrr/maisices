@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'lorem'
 languageCode = 'en-us'
 title = 'maisices'
 theme = 'hugo-ficurinia'

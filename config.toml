@@ -3,7 +3,21 @@ languageCode = 'en-us'
 title = 'maisices'
 theme = 'hugo-ficurinia'
 
-author = 'maísa'
+[params]
+    author = 'maísa'
+    description = "maisices - maísa's personal page"
+    posts = "posts"
+
+    logo = "/logo.svg"
+    favicon = "/favicon.png" 
+    faviconIco = "/favicon.ico"
+    appletouch = "/apple-touch-icon.png" 
+    svgicon = "/logo.svg"
+    icon512 = "/icon512.png"
+
+    fontFamily = "JetBrains Mono"  
+    titleFontFamily = "JetBrains Mono"
+    monospaceFontFamily = "JetBrains Mono"
 
 [menu]
     [[menu.icons]]

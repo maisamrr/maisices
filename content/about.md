@@ -14,4 +14,4 @@ Atualmente sou estudante de Ciência da Computação. Criei essa página com o i
 
 📩 Se precisar, entre em contato comigo: maisammoreira@gmail.com
 
-Créditos: O ícone utilizado na logo foi retirado do site [Flat Icon](https://www.flaticon.com/free-icons/stress).
+Créditos: O ícone utilizado na logo foi retirado do site [Freepik](https://www.freepik.com/free-vector/activities-home-doodle-style-vector-set_31958240.htm#page=2&query=vector%20line%20art%20woman%20sticker&position=7&from_view=search&track=ais)

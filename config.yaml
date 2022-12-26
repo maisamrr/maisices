@@ -15,7 +15,7 @@ imaging:
   quality: 99
 
 params:
-  description: maísa (ela/dela) - dog person, estudante de CCO e metaleira<br>💻 trying to code and cry one day at a time
+  description: maísa (ela/dela) 💻 trying to code and cry one day at a time
   homeMetaContent: maísa moreira personal site
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
@@ -31,10 +31,6 @@ params:
   logoAlt: desenho de uma garota de olhos fechados sem o topo da cabeça, com uma bomba saindo dela e raios ao redor
   customCss:
     - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
   utterances:
     repo: username/username.github.io
     issueTerm: title

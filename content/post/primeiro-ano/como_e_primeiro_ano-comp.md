@@ -1,6 +1,8 @@
 ---
 title: "Como é o primeiro ano da faculdade de Ciência da Computação?"
 date: 2022-12-22T14:53:47-03:00
+tags: [faculdade]
+toc: true
 ---
 
 Eu resolvi escrever esse texto para dar mais informações e uma visão real (e recente) de alguém dentro do curso de Computação. Vai que ajuda alguém que está tentando tomar essa decisão importante na vida, né?

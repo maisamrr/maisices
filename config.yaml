@@ -1,86 +1,45 @@
-baseURL: https://maisamrr.github.io/maisices
+baseUrl: https://maisamrr.github.io/maisices
 languageCode: en-us
-defaultContentLanguage: en
-title: maisices
-theme: cupper-hugo-theme
-enableGitInfo: true
-
-taxonomies:
-  tag: tags
-
-permalinks:
-  post: /:filename/
-
-imaging:
-  quality: 99
+theme: hello-friend
+copyright: ''
+paginate: 5
 
 params:
-  description: maísa (ela/dela) 💻 trying to code and cry one day at a time
-  homeMetaContent: maísa moreira personal site
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
-  hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
-  defaultDarkTheme: false
-  moveFooterToHeader: false
-  # navTitleText: Cupper Theme
-  logoAlt: desenho de uma garota de olhos fechados sem o topo da cabeça, com uma bomba saindo dela e raios ao redor
-  customCss:
-    - css/custom_01.css
-  utterances:
-    repo: username/username.github.io
-    issueTerm: title
-    theme: github-light
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: post
+  # "dark" or "light"
+  defaultTheme: light
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 2
 
-menu:
-  nav:
-    - name: Home
-      url: /
-      weight: 1
-    - name: Blog
-      url: /post/
-      weight: 2
-    - name: Tags
-      url: /tags/
-      weight: 3
-    - name: About
-      url: /about/
-      weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
-
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xHTML: false
-  highlight:
-    codeFences: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
-  tableOfContents:
-    endLevel: 6
-    startLevel: 2
+languages:
+  en:
+    title: Maísa Moreira
+    subtitle: 
+    keywords: ''
+    menuMore: Mais
+    writtenBy: Por
+    readMore: Leia mais
+    readOtherPosts: Leia outros posts
+    newerPosts: Posts mais recentes
+    olderPosts: Posts mais antigos
+    dateFormatSingle: 2006-01-02
+    dateFormatList: 2006-01-02
+    
+    params:
+      logo:
+        logoText: maísa moreira
+        logoHomeLink: /maisices
+    #   or
+    #
+    #   path: /img/your-example-logo.svg
+    #   alt: Your example logo alt text
+    
+    menu:
+      main:
+      - identifier: about
+        name: About
+        url: /about
+      - identifier: links
+        name: Links
+        url: /links_uteis

@@ -1,6 +1,6 @@
 baseUrl: https://maisamrr.github.io/maisices
 languageCode: en-us
-theme: hello-friend
+theme: "hello-friend"
 copyright: ''
 paginate: 5
 
@@ -43,3 +43,9 @@ languages:
       - identifier: links
         name: Links
         url: /links_uteis
+    module:
+      imports:
+      - disable: false
+        ignoreConfig: false
+        ignoreImports: false
+        path: github.com/panr/hugo-theme-hello-friend

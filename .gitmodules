@@ -7,3 +7,9 @@
 [submodule "themes/hello-friend"]
 	path = themes/hello-friend
 	url = https://github.com/panr/hugo-theme-hello-friend.git
+[submodule "themes/hugo-blog-awesomee"]
+	path = themes/hugo-blog-awesomee
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git
+[submodule "themes/hugo-blog-awesome"]
+	path = themes/hugo-blog-awesome
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git
